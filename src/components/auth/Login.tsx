@@ -24,7 +24,7 @@ export default function Login() {
         <Card>
           <CardHeader>
             <CardTitle>Login</CardTitle>
-            <CardDescription>Welcome to Daily.dev</CardDescription>
+            <CardDescription>Welcome back to Daily.dev</CardDescription>
           </CardHeader>
           <CardContent className="space-y-2">
             <form action="">
@@ -33,7 +33,7 @@ export default function Login() {
                 <Input
                   id="email"
                   type="email"
-                  placeholder="Enter here..."
+                  placeholder="enter here..."
                   value={authState.email}
                   onChange={(e) =>
                     setAuthState({ ...authState, email: e.target.value })
